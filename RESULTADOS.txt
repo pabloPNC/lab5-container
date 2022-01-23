@@ -1,21 +1,23 @@
+#RESULTADOS#
+
 * Ejecutando k-mer13 C++ *
 
 Start
 Number of generated k-mers: 67108864
 Finish!
 
-real	0m0,712s
-user	0m0,710s
-sys	0m0,001s
+real	0m0,566s
+user	0m0,566s
+sys	0m0,000s
 * Ejecutando k-mer14 C++ *
 
 Start
 Number of generated k-mers: 268435456
 Finish!
 
-real	0m2,917s
-user	0m2,913s
-sys	0m0,001s
+real	0m2,253s
+user	0m2,251s
+sys	0m0,000s
 ==========================
 * Ejecutando k-mer13 Python *
 
@@ -23,15 +25,58 @@ Start
 Number of generated k-mers: 67108864
 Finish!
 
-real	1m38,557s
-user	1m38,404s
-sys	0m0,003s
+real	1m0,504s
+user	1m0,447s
+sys	0m0,005s
 * Ejecutando k-mer14 Python *
 
 Start
 Number of generated k-mers: 268435456
 Finish!
 
-real	6m48,397s
-user	6m47,758s
-sys	0m0,004s
+real	3m58,974s
+user	3m58,764s
+sys	0m0,005s
+
+================================================================================
+================================================================================
+
+#RESULTADOS SINGULARITY#
+
+* Ejecutando k-mer13 C++ *
+
+Start
+Number of generated k-mers: 67108864
+Finish!
+
+real	0m0,738s
+user	0m0,617s
+sys	0m0,081s
+* Ejecutando k-mer14 C++ *
+
+Start
+Number of generated k-mers: 268435456
+Finish!
+
+real	0m2,433s
+user	0m2,322s
+sys	0m0,072s
+==========================
+* Ejecutando k-mer13 Python *
+
+Start
+Number of generated k-mers: 67108864
+Finish!
+
+real	0m53,818s
+user	0m53,597s
+sys	0m0,130s
+* Ejecutando k-mer14 Python *
+
+Start
+Number of generated k-mers: 268435456
+Finish!
+
+real	3m38,711s
+user	3m38,357s
+sys	0m0,127s
